@@ -5,3 +5,9 @@
 /wechatAvatars/*
 /avatars64x64/*
 *.zip
+
+/images_less/*
+/__pycache__/*
+/cf_experiment_results/*
+/cf_experiment_results_ddpm/*
+/counterfactual_results/*
