@@ -20,7 +20,8 @@ from huggingface_hub import create_repo, upload_folder
 from tqdm.auto import tqdm
 from pathlib import Path
 
-pretrained_path = './experiments/240602_3'
+# pretrained_path = './experiments/240602_3' # this is the local path
+pretrained_path = 'harrym111/animeface_gender' # this is the huggingface path
 rank = 0
 device = torch.device('cuda', rank)
 
